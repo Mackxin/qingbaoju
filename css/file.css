@@ -1,0 +1,45 @@
+.box{
+    width: 90%;
+    margin: 1rem auto;
+}
+.box section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box h2{
+    width: 100%;
+}
+.box section .card {
+    transition: 0.3s;
+    width: 20%;
+    /* box-sizing: border-box; */
+    margin: .5rem;
+    display: flex;
+}
+.box section .card .card-img{
+    width: 30%;
+    height: 100%;
+}
+.box section .card .card-img img{
+    
+}
+.box section .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.box section .card .card-img .card-con{
+    width: 70%;
+}
+section .card h4{
+    font-size: 1.2rem;
+    height: 0.6rem;
+    line-height: .6rem;
+    text-align: center;
+}
+section .card p{
+    font-size: .8rem;
+    padding: 2px 8px;
+    text-indent: 1rem;
+}
